@@ -124,9 +124,14 @@ img {
   color: #404bbf;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .hero-section {
   background-color: var(--primary-text-color-navyblue);
   text-align: center;
+  padding: 188px 0;
 }
 
 .title-hero-section {
@@ -142,11 +147,15 @@ img {
 }
 
 .order-button {
+  display: block;
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   background-color: #4d5ae5;
   line-height: 1.5;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   letter-spacing: 0.04em;
   color: var(--accent-text-color);
   padding: 16px 32px;
@@ -158,10 +167,6 @@ img {
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
-}
-
-.section {
-  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -192,7 +197,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-list-item {
