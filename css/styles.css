@@ -1,0 +1,139 @@
+:root {
+  --primary-text-color-navyblue: #2e2f42;
+  --secondary-text-color-slate: #434455;
+  --accent-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--accent-text-color);
+  color: var(--secondary-text-color-slate);
+}
+
+.list-item,
+.team-list-item {
+  list-style-type: none;
+}
+
+.logo-icon,
+.nav-link,
+.contacts-link,
+.logo-icon-footer {
+  text-decoration: none;
+}
+
+.logo-icon,
+.logo-icon-footer {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: var(--primary-text-color-navyblue);
+}
+
+.contacts-list {
+  font-style: normal;
+}
+
+.nav-link {
+  color: var(--primary-text-color-navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link {
+  color: var(--secondary-text-color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.hero-section {
+  background-color: var(--primary-text-color-navyblue);
+}
+
+.title-hero-section {
+  color: var(--accent-text-color);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.order-button {
+  color: inherit;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-text-color);
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.title-team,
+.title-portfolio {
+  color: var(--primary-text-color-navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.subtitle-benefits,
+.subtitle-team,
+.subtitle-portfolio {
+  color: var(--primary-text-color-navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-benefits,
+.text-team,
+.text-portfolio,
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-three {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: var(--accent-text-color);
+}
+
+.page-footer {
+  background-color: var(--primary-text-color-navyblue);
+}
+
+.text-footer,
+.logo-span-footer {
+  color: #f4f4fd;
+}
