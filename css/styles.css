@@ -29,6 +29,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -83,11 +85,7 @@ img {
   color: var(--primary-text-color-navyblue);
 }
 
-.nav-link-list {
-  display: flex;
-  gap: 40px;
-}
-
+.nav-link-list,
 .contacts-link-list {
   display: flex;
   gap: 40px;
@@ -140,7 +138,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 56px;
+  margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -153,13 +151,13 @@ img {
   background-color: #4d5ae5;
   line-height: 1.5;
   min-width: 169px;
-  height: 56px;
   border: none;
   letter-spacing: 0.04em;
   color: var(--accent-text-color);
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
 }
 
 .order-button:hover,
@@ -258,10 +256,6 @@ img {
   margin-bottom: 8px;
 }
 
-.text-team {
-  margin-bottom: 32px;
-}
-
 .title-portfolio {
   margin-bottom: 72px;
 }
@@ -278,19 +272,13 @@ img {
 }
 
 .about-portfolio-container {
-  text-align: center;
   border: 1px solid #e7e9fc;
-  padding: 32px 16px;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .subtitle-portfolio {
-  margin-top: 32px;
   margin-bottom: 8px;
-}
-
-.text-portfolio {
-  margin-bottom: 32px;
 }
 
 .page-footer {
